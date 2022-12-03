@@ -6,7 +6,7 @@ import Home from "./components/Home.js";
 import Delight from "./components/Delight.js";
 import Hike from "./components/Hike.js";
 import Hack from "./components/Hack.js";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 projectData.forEach((item) => {
@@ -21,7 +21,7 @@ sketches.forEach((item) => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index element={<Home projectData={projectData} />}></Route>
           <Route path="personas" element={<Personas />} />
@@ -29,7 +29,7 @@ function App() {
           <Route path="hike" element={<Hike />} />
           <Route path="hack" element={<Hack />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
