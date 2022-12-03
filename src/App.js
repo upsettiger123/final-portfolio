@@ -1,29 +1,35 @@
 import "./App.css";
-import { useState } from "react";
-import bakeryData from "./assets/bakery-data.json";
+import projectData from "./assets/project-data.json";
+import sketches from "./assets/sketch.json";
+import Personas from "./components/Personas.js";
+import Home from "./components/Home.js";
+import Delight from "./components/Delight.js";
+import Hike from "./components/Hike.js";
+import Hack from "./components/Hack.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
-bakeryData.forEach((item) => {
-  item.image = process.env.PUBLIC_URL + "/" + item.image;
+projectData.forEach((item) => {
+  item.image = process.env.PUBLIC_URL + "/" + item.img;
+});
+
+sketches.forEach((item) => {
+  item.image = process.env.PUBLIC_URL + "/" + item.img;
 });
 /* ############################################################## */
 
 function App() {
-  // TODO: use useState to create a state variable to hold the state of the cart
-  /* add your cart state code here */
-
   return (
     <div className="App">
-      <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
-
-      {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
-        <p>Bakery Item hi {index}</p> // replace with BakeryItem component
-      ))}
-
-      <div>
-        <h2>Cart</h2>
-        {/* TODO: render a list of items in the cart */}
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home projectData={projectData} />}></Route>
+          <Route path="personas" element={<Personas />} />
+          <Route path="delight" element={<Delight sketches={sketches}/>} />
+          <Route path="hike" element={<Hike />} />
+          <Route path="hack" element={<Hack />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
