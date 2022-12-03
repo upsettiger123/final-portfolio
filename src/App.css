@@ -1,9 +1,78 @@
-/* Add styling for your page here */
+:root {
+    --main-bg-color: black;
+    --primary: #2B80FF;
+    --primary-accent: #FFE41D;
+    --secondary-accent: #face8b;
+    --text: white;
+  }
 
 .App {
-
+    background-color: var(--main-bg-color);
+    padding: 0 15rem 10rem 15rem;
+    color: var(--text);
+    min-height: 100vh;
 }
 
-.BakeryItem {
-  
+.logo {
+    position: sticky;
+    top: 0px;
+    margin-left: -15rem;
+}
+
+.logo img {
+    width: 4rem;
+    height: auto;
+    padding: 1.5rem;
+}
+
+a:link { text-decoration: none; }
+
+
+.intro {
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 4.67rem;
+}
+
+.intro {
+    margin-top: -1rem;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+@media all and (max-width: 1150px) {
+    .App {
+        padding: 0 10rem;
+    }
+
+    .logo {
+        margin-left: -10rem;
+    }
+
+    .logo img {
+        padding: 0.5rem;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .App {
+        padding: 0 5%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .intro {
+        margin-top: 0;
+        padding-top: 1rem;
+        font-size: 1.5em;
+        margin-bottom: 2rem;
+    }
 }

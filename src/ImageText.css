@@ -1,0 +1,15 @@
+.img-tile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+.img-content {
+    padding: 0 1rem;
+    height: auto;
+}
+
+.img-content-col {
+    padding: 1rem 0;
+}
