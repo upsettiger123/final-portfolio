@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Sketch 1",
+      "descr": "Focusing on personal connection by only allowing calls and not instant messages.",
+      "img": "images/sketch1.jpg",
+      "id": "personas"
+    },
+    {
+      "name": "Sketch 2",
+      "descr": "Fairly consistent with current public's mental model of what a dating app is. The locked imagery emphasizes the serious relationship aspect.",
+      "img": "images/sketch2.jpg",
+      "id": "delight"
+    },
+    {
+      "name": "Sketch 3",
+      "descr": "Heavily features compatibility instead of images, which some may find too surface level with fun/unique messaging imagery.",
+      "img": "images/sketch3.jpg",
+      "id": "hike"
+    },
+    {
+      "name": "Sketch 4",
+      "descr": "Focuses on customizability to feature the personality of each user and displays images at the bottom. To emphasize creating relationships, reacting to profiles is the only way to start messaging.",
+      "img": "images/sketch4.jpg",
+      "id": "hack"
+    }
+  ]
+  
