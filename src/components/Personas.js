@@ -3,12 +3,19 @@ import stove from "../assets/stove-diagram.png";
 import austin from "../assets/austin.png";
 import marcy from "../assets/marcy.png";
 import storyboard from "../assets/storyboard.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ImageText from "./ImageText"
 import ProjectTile from "./ProjectTile"
 import '../Page.css'
+import { useEffect } from "react";
 
 export default function Personas() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     const prep_content = <div>
         <p>This interface is trying to allow users to easily control a heat source to cook food.</p>
         <p>There are four burners that users can control independently of each other through the use of the knobs on the side of the stove.</p>

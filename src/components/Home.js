@@ -1,8 +1,15 @@
 import ProjectTile from "./ProjectTile.js";
 import logo from "../assets/tiger.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Home(props) {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     return (
         <div>
             <div className="logo">

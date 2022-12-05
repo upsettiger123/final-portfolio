@@ -8,9 +8,10 @@ import settings_crit from "../assets/settings_crit.png";
 import match_crit from "../assets/match_crit.png";
 import compatibility_crit from "../assets/compatibility_crit.png";
 import design from "../assets/design.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ImageText from "./ImageText"
 import ProjectTile from "./ProjectTile"
+import { useEffect } from "react";
 
 const crit1 = <div className="crit-content">
     <h4>“Create Account & Profile is too long, cluttered, and boring!”</h4>
@@ -38,7 +39,12 @@ const crit5 = <div className="crit-content">
 </div>
 
 export default function Delight(props) {
-    console.log(props.sketches)
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     return(
         <div className="page">
             <div className="logo" style={{maxWidth: '50px'}}>

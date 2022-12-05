@@ -2,10 +2,18 @@ import logo from "../assets/tiger.svg";
 import hack1 from "../assets/hack1.png";
 import hack2 from "../assets/hack2.png";
 import hack3 from "../assets/hack3.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ImgSeq from "./ImgSeq"
+import { useEffect } from "react";
 
 export default function Hack() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    
     return(
         <div className="page">
             <div className="logo">

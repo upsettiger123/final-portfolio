@@ -1,8 +1,15 @@
 import logo from "../assets/tiger.svg";
 import components from "../assets/components.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Hike() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     return(
         <div className="page">
             <div className="logo" style={{maxWidth: '50px'}}>
