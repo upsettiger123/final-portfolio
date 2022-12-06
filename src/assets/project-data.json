@@ -1,28 +1,28 @@
 [
   {
-    "name": "Personas & Storyboarding",
-    "descr": "Investigating how users interact with communal kitchen stoves as an exercise into developing personas and storyboards.",
+    "name": "1. Developing The Tools To Represent Users",
+    "descr": "Personas & Storyboarding: investigating how users interact with communal kitchen stoves as an exercise into developing personas and storyboards.",
     "url": 7.99,
-    "img": "images/p_and_s.png",
+    "img": "images/p_and_s.svg",
     "id": "personas"
   },
   {
-    "name": "Delight Dating App",
-    "descr": "Designing a mobile dating app for more serious relationships, so you only talk to one person at a time.",
+    "name": "2. Creating a Design With Personality And Intention",
+    "descr": "Delight Dating App: designing a mobile dating app for more serious relationships, so you only talk to one person at a time.",
     "url": 4.99,
     "img": "images/delight.png",
     "id": "delight"
   },
   {
-    "name": "Hiking To-Do List",
-    "descr": "Developing a site that has hikes nearby Brown's campus that users can use to track their hiking bucket list!",
+    "name": "3. Start Developing Reactive Applications",
+    "descr": "Hiking To-Do List: coding a site that has hikes nearby Brown's campus that users can use to track their hiking bucket list!",
     "url": 2.99,
     "img": "images/hike.png",
     "id": "hike"
   },
   {
-    "name": "Hack @ Home",
-    "descr": "Creating a 3D 'home' that hosted a virtual hackathon in 2020 over the Covid-19 pandemic. There is a regular 2D version that was the basis for this version.",
+    "name": "4. Putting it All Together",
+    "descr": "Hack @ Home: creating a 3D 'home' that hosted a virtual hackathon in 2020 over the Covid-19 pandemic. There is a regular 2D version that was the basis for this version.",
     "url": 5.99,
     "img": "images/hack.png",
     "id": "hack"

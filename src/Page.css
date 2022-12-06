@@ -62,7 +62,7 @@ iframe {
 }
 
 .page a { 
-    color: var(--primary);
+    color: var(--secondary-accent);
 }
 
 /* .page a:visited { 

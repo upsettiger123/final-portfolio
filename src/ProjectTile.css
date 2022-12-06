@@ -1,7 +1,7 @@
 .project-tile {
     display: flex;
     height: 20rem;
-    padding-bottom: 3rem;
+    padding: 1.5rem 0;
     transition: all .25s ease-in-out; 
     font-size: larger;
     color: var(--text);
@@ -10,7 +10,7 @@
 .project-tile-noscale {
     display: flex;
     height: 20rem;
-    padding-bottom: 3rem;
+    padding: 1.5rem 0;
     transition: all .25s ease-in-out; 
     font-size: larger;
     color: var(--text);
@@ -32,6 +32,7 @@
     background-color: var(--primary);
     width: calc(100vw - 30rem);
     padding: 1rem;
+    text-align: left;
 }
 
 @media all and (max-width: 1100px) {

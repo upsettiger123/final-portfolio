@@ -2,9 +2,9 @@
     --main-bg-color: black;
     --primary: #2B80FF;
     --primary-accent: #FFE41D;
-    --secondary-accent: #face8b;
+    --secondary-accent: #ed8ca6;
     --text: white;
-  }
+}
 
 .App {
     background-color: var(--main-bg-color);
@@ -31,10 +31,7 @@ a:link { text-decoration: none; }
 .intro {
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 4.67rem;
-}
-
-.intro {
+    margin-bottom: 3.67rem;
     margin-top: -1rem;
 }
 
@@ -44,6 +41,14 @@ p {
 
 h3 {
     font-size: 1.2em;
+}
+
+.chevron {
+    width: 3rem;
+}
+
+.tile-group {
+    text-align: center;
 }
 
 @media all and (max-width: 1150px) {

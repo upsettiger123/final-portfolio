@@ -88,9 +88,9 @@ export default function Personas() {
             <div className="section">
                 <h3>Personas</h3>
                 <p>With the data I collected, I was able to construct two personas based off the overall trends I saw and created empathy maps to describe them.</p>
-                <h4>Rushed Roommate Austin:</h4>
+                <h4><b>Rushed Roommate Austin:</b></h4>
                 <ImageText img={austin} width={"50%"} content={austin_content} column={false} />
-                <h4>Multitasking Marcy:</h4>
+                <h4><b>Multitasking Marcy:</b></h4>
                 <ImageText img={marcy} width={"50%"} content={marcy_content} column={false} />
             </div>
             <div className="section">
