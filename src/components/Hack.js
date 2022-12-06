@@ -26,8 +26,9 @@ export default function Hack() {
                 <h2>Creating a virtual home to gather and host information for a hackathon over the Covid-19 pandemic</h2>
                 <div className="section">
                     <h3>Context</h3>
-                    <p>Problem: Over the pandemic, it was difficult to plan large virtual gatherings that actually felt engaging and like a gathering, but Brown's full stack club had desires to host their first ever hackathon.</p>
-                    <p>Solution: Recreate an actual place of gathering using 3D modeling and interaction. Create a novel experience that people will actually like to interact with and make their hackathon experience memorable while still acknowledging the fact that everyone had to stay at home.</p>
+                    <p>Finally, I felt confident I could create technology that understood its users and context to create engaging, useful UI. This is what I chose for my first attempt.</p>
+                    <p><b>Problem:</b> Over the pandemic, it was difficult to plan large virtual gatherings that actually felt engaging and like a gathering, but Brown's full stack club had desires to host their first ever hackathon.</p>
+                    <p><b>Solution:</b> Recreate an actual place of gathering using 3D modeling and interaction. Create a novel experience that people will actually like to interact with and make their hackathon experience memorable while still acknowledging the fact that everyone had to stay at home.</p>
                     <p>With my co-tech lead, we coded all the user interaction with models that a design team created. Here I will explain my contributions to the project.</p>
                 </div>
                 <div className="section">
@@ -37,7 +38,7 @@ export default function Hack() {
                 </div>
                 <div className="section">
                     <h3 style={{marginBottom:"1rem"}}>User Interactability</h3>
-                    <h4>Hovering & Clicking:</h4>
+                    <h4><b>Hovering & Clicking:</b></h4>
                     <ImgSeq imgs={[hack2, hack3]}></ImgSeq>
                     <p>The user is essentially a camera that can interact with the scene. Any object they can interact with will highlight on hover, indicating that they are clickable. 
                         <br/><br/>
@@ -49,6 +50,7 @@ export default function Hack() {
                         </ul>
                 </div>
                 <div className="section">
+                    <p>Here were the guiding UI principles in my decision making:</p>
                     <div className="highlight-content">
                         <p className="subtitle">Mental Models</p>
                         <ul>

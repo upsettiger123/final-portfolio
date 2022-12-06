@@ -51,7 +51,11 @@ export default function Personas() {
             </div>
             <div className="page-content">
             <h1 className="page-title">Personas & Storyboarding</h1>
-            <h2>Investigating how users interact with communal kitchen stoves</h2>
+            <h2>Practicing creating personas and storyboards by analyzing interactions with a communal stove</h2>
+            <div className="section">
+                <h3>Context</h3>
+                <p>The most important part of design is understanding who you are designing for. The industry standard for doing this is by developing personas for users and storyboard scenarios for design uses. In order to start understanding users better, I practiced these techniques with a household interface.</p>
+            </div>
             <div className="section">
                 <h3>Preparation</h3>
                 <p>In order to better understand how users view, understand, and use the kitchen stove interface, I observed three users in action. Beforehand, I sketched out the key components of the interface for my understanding.</p>

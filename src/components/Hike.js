@@ -19,7 +19,11 @@ export default function Hike() {
             </div>
             <div className="page-content">
                 <h1 className="page-title">Hiking To-Do List</h1>
-                <h2>Creating a <a href="https://upsettiger123.github.io/development/">hiking to do list</a> with trails well known within driving distance from Brown's campus using an app that tracks states</h2>
+                <h2>Creating a <a href="https://upsettiger123.github.io/development/">hiking to do list</a> with well known trails within driving distance from Brown's campus that tracks what trails users' have completed</h2>
+                <div className="section">
+                    <h3>Context</h3>
+                    <p>You can't implement a website design without first learning the development process. To tackle this next step, I created and deployed a react app frontend with content inspired by a favorite activity of a group of my friends and I. I think an extended version of this would be something we'd love to use to explore on the weekends together.</p>
+                </div>
                 <div className="section">
                     <h3>Goal and Value of the Application</h3>
                     <p>The goal of this application is to serve as the user's to do list of hikes. The value for users is that this application can keep track of which hikes users have completed and how many miles they have already hiked. The filtering and sorting would be useful to view what hikes users want to complete and determine their next hike given different user preferences.</p>

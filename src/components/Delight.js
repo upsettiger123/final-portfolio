@@ -56,6 +56,10 @@ export default function Delight(props) {
                 <h1 className="page-title">Delight Dating App</h1>
                 <h2>Mocking up a solution to <a href="https://www.delightapp.co/" target="_blank">Delight's</a> startup concept&mdash;a mobile dating app for more serious relationships, so you only talk to one person at a time&mdash;and iteratively designing it</h2>
                 <div className="section">
+                    <h3>Context</h3>
+                    <p>The next step in learning how to fully implement designs, is learning the iterative design process: sketching, prototyping (low and high fidelity), critiquing, and testing on users. I used Delight as the subject of this exercise in iterative design because of its dedication to cultivating genuine human interaction.</p>
+                </div>
+                <div className="section">
                     <h3>Sketches</h3>
                     <p>We began by brainstorming different interface ideas that emphasize different considerations related to common mental models and conceptual goals.</p>
                     {props.sketches.map((item, index) => ( 
