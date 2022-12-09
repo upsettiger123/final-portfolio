@@ -31,8 +31,7 @@ a:link { text-decoration: none; }
 .intro {
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 3.67rem;
-    margin-top: -1rem;
+    margin-top: -2.5rem;
 }
 
 p {
@@ -49,6 +48,10 @@ h3 {
 
 .tile-group {
     text-align: center;
+}
+
+.journey {
+    color: var(--secondary-accent);
 }
 
 @media all and (max-width: 1150px) {

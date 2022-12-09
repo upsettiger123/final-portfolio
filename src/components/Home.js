@@ -20,7 +20,9 @@ export default function Home(props) {
             </div>
             <div className="home">
                 <h1 className="intro">
-                Hi - I'm Upset Tiger, a designer interested in the social aspect of technology. I wanted to explore ways to humanize users and UX and make/implement designs that enrich people's lives rather than distract from them. Follow along on my journey through these 4 projects!
+                Hi, I'm Upset Tiger - a designer interested in the social aspect of technology. I wanted to explore ways to humanize users and UX and make/implement designs that enrich people's lives rather than distract from them.
+                <br/><br/>
+                <span className="journey">Follow along on my journey through these 4 projects!</span>
                 </h1>
                 {props.projectData.map((item, index) => ( 
                     <div className="tile-group">
